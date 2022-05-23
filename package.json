@@ -2,7 +2,8 @@
   "name": "user-api",
   "version": "1.0.0",
   "description": "simple user API",
-  "main": "index.js",
+  "source": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
