@@ -4,7 +4,7 @@ import {getAllUser ,specifyGender, getRandomUser} from './../controllers/UserCon
  const router = express.Router();
 
 router.route('/').get(getRandomUser)
-router.route('/alluser').get(getAllUser);
+router.route('/allusers').get(getAllUser);
 router.route('/users/gender/:sex').get(specifyGender)
 
 export default router;
